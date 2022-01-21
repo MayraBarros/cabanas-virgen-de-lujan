@@ -1,0 +1,154 @@
+.tarjeta-c1 {
+  width: 25%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.tarjeta-c1 .capacidad {
+  width: 80%;
+  padding-top: .7rem;
+}
+
+.tarjeta-c1 .texto-tarjetas {
+  text-align: center;
+  font-size: .7rem;
+}
+
+.tarjeta-c2 {
+  width: 25%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.tarjeta-c2 .garage {
+  width: 90%;
+}
+
+.tarjeta-c2 .texto-tarjetas {
+  text-align: center;
+  font-size: .7rem;
+}
+
+.tarjeta-c3 {
+  width: 25%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.tarjeta-c3 .wi-fi {
+  width: 90%;
+}
+
+.tarjeta-c3 .texto-tarjetas {
+  text-align: center;
+  font-size: .7rem;
+}
+
+.tarjeta-c4 {
+  width: 25%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.tarjeta-c4 .piscina {
+  width: 75%;
+}
+
+.tarjeta-c4 .texto-tarjetas {
+  padding-top: -1rem;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.tarjeta-c5 {
+  width: 25%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.tarjeta-c5 .dinosaurio {
+  width: 65%;
+}
+
+.tarjeta-c5 .texto-tarjetas {
+  text-align: center;
+  font-size: .7rem;
+}
+
+.tarjeta-c6 {
+  width: 25%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.tarjeta-c6 .tiendas {
+  width: 65%;
+}
+
+.tarjeta-c6 .texto-tarjetas {
+  padding-top: .5rem;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.b3__t-p-c__san-juan {
+  background: rgba(255, 255, 255, 0.89);
+  border-radius: 8px;
+  width: 85%;
+  height: 12rem;
+  margin: 1rem;
+  position: relative;
+  -webkit-box-shadow: -4px 4px 4px #313030;
+          box-shadow: -4px 4px 4px #313030;
+}
+
+.b3__t-p-c__san-juan .tarjeta__front {
+  width: 100%;
+  height: 100%;
+  background-image: url(./IMG/san-juan-mobile.jpg);
+  opacity: 1;
+  border-radius: 8px;
+  border: 1.3px solid #fff;
+  position: absolute;
+}
+
+.b3__t-p-c__san-juan .tarjeta__front .tarjeta-front__tt {
+  text-align: center;
+  color: #fff;
+  font-family: 'jost', sans-serif;
+  padding-top: 5.5rem;
+}
+
+.b3__t-p-c__san-juan .tarjeta__back {
+  width: 100%;
+  height: 12rem;
+  background-color: rgba(255, 255, 255, 0.89);
+  color: #242323;
+  font-family: 'Jost', sans-serif;
+  font-size: .8rem;
+  border-radius: 8px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.89);
+}
+
+.b3__t-p-c__san-juan .tarjeta__back .tarjeta-back__tx {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.b3__t-p-c__san-juan .tarjeta__back .horas-de-viaje {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 1rem 1rem 1rem 1rem;
+  font-weight: 600;
+}
+/*# sourceMappingURL=phone.css.map */

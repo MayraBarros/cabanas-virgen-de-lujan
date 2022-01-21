@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'jost' sans-serif;
+}
+
+.portada-ppal{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./IMG/portada-androirL.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+     
+}
+
+.header{
+    display: block;
+    width: 100%;
+
+}
+
+.navbar{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: right;
+
+}
+
+.items{
+    padding: .5rem .75rem;
+    list-style: none;
+    font-family: 'Jost', sans-serif;
+}
+
+.link{
+    font-size: .6rem;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.logo-posicion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+}
+
+.logo-posicion .cabanas-logo{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1;
+    padding: 1rem 0  0  1rem;
+}
+
+.titulo-posicion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 9rem
+}
+
+.valle-fertil{
+    font-size: 1.5rem;
+}
+
+.titulo-portada-ppal{
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: 'Jost', sans-serif;
+    padding: 0 0 0 2rem;
+    color: #ffff;
+    text-shadow:  3px 3px 2px black;
+    font-weight: 900;
+    line-height: 2.7rem;
+}
+
+.tierra-de-dinosaurios{
+    font-family: 'Jost', sans-serif;
+    color: #ffff;
+    padding-left: 2rem;
+    font-size: 1rem;
+    text-shadow:  3px 3px 2px black;
+}
+.bloque-2{
+    display: block;
+    width: 100%;
+    background-color: #F0BB8A;
+    position: relative;
+}
+
+.t-bloque-2{
+    width: 100%;
+    display: block;
+    padding-top: 2rem;
+    
+}
+
+.texto-b-2 {
+    font-size: 1.3rem;
+    font-family: 'Jost', sans-serif;
+    padding: 0 1rem 2rem 1rem;
+    color: rgb(38 37 37);
+    text-align: left;
+
+}
+
+.texto2-b-2{
+    font-family: 'Jost', sans-serif;
+    padding: 0 1rem 2rem 1rem;
+    color: rgb(38 37 37);
+    text-align: left;
+    width: 95%;
+}
+
+.caracteristicas{
+    display: block;
+    width: 100%;
+}
+
+.c-sup{
+    width: 100%;    
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    position: relative;
+}
+
+.c-inf{
+    width: 100%;    
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bloque-3{
+    display: block;
+    background-image: url(./IMG/como\ llegar\ ANDROIDL.png);
+    width: 100%;
+    height: auto;
+}
+
+.b3__tt__como-llegar{
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-shadow:  3px 2px black;
+    padding: 1.3rem 0 1rem 1rem;
+}
+
+.b3__tarjetas-por-ciudad{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.b3__t-p-c__san-juan .tarjeta__back{
+    transform: rotateX(-180deg);
+    backface-visibility: hidden;
+    
+    transition: transform .2s;
+}
+
