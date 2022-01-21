@@ -2,9 +2,11 @@
     width: 25%;
     align-content: center;
     text-align: center;
+    font-family: 'jost', sans-serif;
         .capacidad{
             width: 80%;
             padding-top: .7rem;
+            
         }
 
         .texto-tarjetas{
@@ -17,6 +19,7 @@
     width: 25%;
     align-content: center;
     text-align: center;
+    font-family: 'jost', sans-serif;
         .garage{
             width: 90%;
         }
@@ -31,6 +34,7 @@
     width: 25%;
     align-content: center;
     text-align: center;
+    font-family: 'jost', sans-serif;
     
         .wi-fi{
             width: 90%;
@@ -46,6 +50,7 @@
     width: 25%;
     align-content: center;
     text-align: center;
+    font-family: 'jost', sans-serif;
     
         .piscina{
             width: 75%;
@@ -63,6 +68,7 @@
     width: 25%;
     align-content: center;
     text-align: center;
+    font-family: 'jost', sans-serif;
     
         .dinosaurio{
             width: 65%;
@@ -79,6 +85,7 @@
     width: 25%;
     align-content: center;
     text-align: center;
+    font-family: 'jost', sans-serif;
     
         .tiendas{
             width: 65%;
@@ -116,6 +123,7 @@
                         color: #fff;
                         font-family: 'jost', sans-serif;
                         padding-top: 5.5rem;
+                        text-shadow:  3px 3px 2px black;
                     }
                 }
 
@@ -150,4 +158,45 @@
                     
             }
             
+}
+
+.tarjeta__front__mdz {
+    width: 100%;
+    height: 100%;
+    background-image: url(./IMG/mendoza-mobile2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 8px;
+    border: 1.3px solid #fff;    
+    position: absolute;   
+    
+        .tarjeta-front__tt{
+            text-align: center;
+            color: #fff;
+            font-family: 'jost', sans-serif;
+            padding-top: 5.5rem;
+            text-shadow:  3px 3px 2px black;
+        }
+
+}
+.tarjeta__front__rp {
+    width: 100%;
+    height: 100%;
+    background-image: url(./IMG/rp2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 8px;
+    border: 1.3px solid #fff;    
+    position: absolute;   
+    
+        .tarjeta-front__tt{
+            text-align: center;
+            color: #fff;
+            font-family: 'jost', sans-serif;
+            padding-top: 5.5rem;
+            text-shadow:  3px 3px 2px black;
+        }
+
 }

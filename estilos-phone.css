@@ -85,9 +85,11 @@
 .tierra-de-dinosaurios{
     font-family: 'Jost', sans-serif;
     color: #ffff;
+    padding-top:2rem;
     padding-left: 2rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-shadow:  3px 3px 2px black;
+    text-align: center;
 }
 .bloque-2{
     display: block;
@@ -168,8 +170,8 @@
 
 .b3__t-p-c__san-juan .tarjeta__back{
     transform: rotateX(-180deg);
-    backface-visibility: hidden;
-    
+    backface-visibility: hidden;    
     transition: transform .2s;
 }
+
 
