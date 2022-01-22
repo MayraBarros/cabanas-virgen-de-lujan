@@ -146,11 +146,11 @@
 }
 
 .galeria__instalaciones{
-    width: 80%;
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: .4rem;
+    gap: .2rem;
     margin: auto;
     padding-bottom: 3rem;
 }
@@ -170,6 +170,7 @@
     max-height: 100%;
     border-radius: 3px;
     cursor: pointer;
+    object-fit: cover;
 }
 
 #img-activa{
