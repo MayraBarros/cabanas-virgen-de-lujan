@@ -155,6 +155,16 @@
     padding-bottom: 3rem;
 }
 
+.galeria__tt{
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: 'jost', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
 #galeria img{
     width: 100%;
     /* height: auto; */
@@ -182,10 +192,10 @@
 }
 
 #contenedor-interno{
-    widows: 100%;
+    width: 100%;
     /* height: 100%; */
     border: 1px #f3f3f3 solid;
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
     justify-content: center;
     position: relative;
