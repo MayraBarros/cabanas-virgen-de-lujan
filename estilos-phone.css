@@ -167,7 +167,7 @@
 
 #galeria img{
     width: 100%;
-    /* height: auto; */
+    max-height: 100%;
     border-radius: 3px;
     cursor: pointer;
 }
@@ -213,20 +213,23 @@ button{
     top: 0;
     right: 0;
     font-size: 1rem;
+    padding: .6rem;
 }
 
 #btn-retrocede{
     position: absolute;
     top: 50%;
     left: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: .6rem;
 }
 
 #btn-adelanta{
     position: absolute;
     top: 50%;
     right: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding: .6rem;
 }
 
 
