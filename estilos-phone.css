@@ -146,14 +146,18 @@
     padding-bottom: 3rem;
 }
 
+/* .galeria__instalaciones{
+    width: 100%;
+} */
 
 .carousel-item{
-    width: 100%;
+    width: auto;
     height: 300px;
 }
 
 .carousel-item img{
     object-fit: cover;
+    max-width: 100%;
     
 }
 
