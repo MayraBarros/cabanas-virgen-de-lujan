@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'jost', sans-serif;
+    scroll-margin: 1rem;
 }
 html{
     margin-bottom: 0;
@@ -72,7 +73,7 @@ button{
 
 .valle-fertil__tt{
     color: #A86F18;
-    padding: 0 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     font-size: 1.7rem;
 }
 
@@ -100,7 +101,7 @@ button{
     border: 1px solid rgb(46, 45, 45);
     border-radius: 11px;
     margin: auto;
-    background-color: #f7fb8796;
+    background-color: #f1f58f96;
     box-shadow: -5px 5px 3px rgb(194, 189, 189);
     margin-bottom: 1rem;
     
