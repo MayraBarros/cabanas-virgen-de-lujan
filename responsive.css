@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'jost', sans-serif;
+}
+html{
+    margin-bottom: 0;
+}
+
+nav{
+    position: fixed !important;
+    z-index: 10000;
+    width: 100%;
+    
+}
+
+button{
+    background-color: white !important;
+}
+
+.navbar-nav{
+    background-color: white !important;
+    padding: 1rem !important;
+    color: #00000 !important;
+}
+
+.carousel .slide{
+    position: relative;
+}
+
+.textos__portada{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: -5px 5px 4px black;
+}
+
+.portada__tt{
+    color: #ffff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.portada__dinosaurios{
+    font-size: 3rem;
+}
+
+.textos__portada p{
+    color: #ffff;
+    padding-top: 15rem;
+    text-shadow: -4px 5px 3px black;
+    text-align: center;
+}
+
+.bloque-2{
+    width: 100%;
+    display: inline-block;
+    margin: 1rem 0;
+    font-family: 'jost', sans-serif;
+
+}
+
+.valle-fertil__tt{
+    color: #A86F18;
+    padding: 0 1rem 1rem 1rem;
+    font-size: 1.7rem;
+}
+
+.valle-fertil__txt{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.cabanas__tt{
+    color: #A86F18;
+    padding: 0 1rem 1rem 1rem;
+    font-size: 1.7rem;
+}
+
+.cabanas__txt{
+    padding: 0 1rem 1rem 1rem;
+}
+
+.tarjeta__cabanas{
+    display: block;
+    width: 100%;
+}
+
+.datos__cabanas{
+    width: 80%;
+    border: 1px solid rgb(46, 45, 45);
+    border-radius: 11px;
+    margin: auto;
+    background-color: #f7fb8796;
+    box-shadow: -5px 5px 3px rgb(194, 189, 189);
+    margin-bottom: 1rem;
+    
+}
+
+.datos__tt{
+    padding: 1rem 1rem 0 1rem;
+    font-weight: 500;
+
+}
+
+.items__cabanas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono__items{
+    width: 20%;
+    object-fit: contain;
+    padding: 0 1rem 1rem 1rem;
+    text-align: left;
+}
+
+.txt__cabanas{
+    width: 100%;
+    text-align: left;
+}
+
+.bloque-2__fotos{
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.titulo__foto{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.tarjeta__items__cabanas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta__superior{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.item__t{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 11px;
+    text-align: center;
+    box-shadow:-5px 5px 3px rgb(194, 189, 189); ;
+}
+
+.item__icono{
+    max-width: 70%;
+    margin: auto;
+    padding: .5rem;
+}
+
+.icono__txt{
+    font-size: .7rem;
+}
+
+.tarjeta__inferior{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.bloque-3__como-llegar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.como-llegar__icono{
+    width: 20%;
+}
+
+.como-llegar__tt{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.box-tarjetas-rutas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.box-container{
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 85%;
+    height: 12rem;
+    margin: 1rem;
+    position: relative;
+    box-shadow: -4px 4px 4px rgb(49, 48, 48);
+}
+
+
+.box-container .box-frente-sanjuan{
+    width: 100%;
+    height: 100%;
+    background-image: url(./IMG/Paisajes/san-juan-mobile.jpg);
+    opacity: 1;
+    border-radius: 8px;
+    border: 1.3px solid #fff;    
+    position: absolute
+}
+
+.box-frente__tt{
+    text-align: center;
+    color: #fff;
+    font-family: 'jost', sans-serif;
+    padding-top: 5.5rem;
+    text-shadow:  3px 3px 2px black;
+    font-size: 1.4rem;
+}
+
+.box-back{
+    width: 100%;
+    height: 12rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 35, 35);
+    font-family: 'Jost', sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    position: absolute;
+    /* background: rgba(255, 255, 255, 0.89);k */
+    ;
+}
+
+.box-container .box-back{
+    transform: rotateX(-180deg);
+    backface-visibility: hidden;    
+    transition: transform .2s;
+    
+}
+
+.box-container .box-frente-mdz{
+    width: 100%;
+    height: 100%;
+    background-image: url(./IMG/Paisajes/mendoza-mobile2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 8px;
+    border: 1.3px solid #fff;    
+    position: absolute
+
+}
+
+.box-container .box-frente-rp{
+    width: 100%;
+    height: 100%;
+    background-image: url(./IMG/Paisajes/rp2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 8px;
+    border: 1.3px solid #fff;    
+    position: absolute
+
+}
+
+.box-back__txt{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 3rem 1rem 1rem 1rem; 
+}
+
+.bloque-4{
+    margin-top: 3rem;
+    background-color: #EEEAEC;
+    font-family: 'jost', sans-serif;
+    padding-top: 3rem;
+}
+
+.contacto__icono-texto{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto__icono{
+    width: 15%;
+   
+}
+
+.contacto__tt{
+    padding-top: .6rem;
+    text-align: center;
+}
+
+.contacto__txt{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+
+.contacto__cajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contacto__caja-info{
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 11px;
+    background-color: #ffff;
+    height: 50px;
+    margin: .6rem;
+    display: flex;
+}
+
+.icono__correo{
+    width: 10%;
+    object-fit: contain;
+    padding-left: 1rem;
+}
+
+.icono__telefono{
+    width: 10%;
+    object-fit: contain;
+    padding-left: 1rem;
+}
+
+.icono__direccion{
+    width: 10%;
+    object-fit: contain;
+    padding-left: 1rem;
+}
+
+.caja__txt{
+    padding-left: 1.3rem;
+    text-align: left;
+    margin: auto 0;
+    font-size: .9rem;
+}
+
+.contacto__mapa{
+    border: 1px solid #fff;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+footer{
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer{
+    
+    color: #ffff;
+    font-size: .8rem;
+    
+}
+
+.copy{
+    color: #ffff;
+    font-size: .8rem;
+    padding-top: .5rem;
+}
