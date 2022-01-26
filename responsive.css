@@ -14,10 +14,11 @@ nav{
     z-index: 10000;
     width: 100%;
     
+    
 }
 
 button{
-    background-color: white !important;
+    /* background-color: white !important; */
 }
 
 .navbar-nav{
@@ -26,42 +27,49 @@ button{
     color: #00000 !important;
 }
 
-.carousel .slide{
+/* .carousel .slide{
     position: relative;
+} */
+
+.portada-principal{
+    background-image: url(./IMG/Paisajes/mobile-portada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: block;
+   
 }
 
 .textos__portada{
     position: absolute;
-    top: 40%;
+    bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
-    text-shadow: -2px 3px 3px black;
+
 }
 
 .portada__tt{
     color: #ffff;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: .7rem;
+    background-color: rgba(14, 13, 13, 0.329);
+    padding:.5rem;
+    
+}
+
+.portada__txt{
+    font-size: .8rem ;
+    padding: .3rem;
+    color: #ffff;
+    text-align: center;
+    background-color: rgba(14, 13, 13, 0.404);
+    /* margin: 0 !important; */
 }
 
 .portada__dinosaurios{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.textos__portada p{
-    color: #ffff;
-    padding-top: 10rem;
-    text-shadow: -2px 3px 3px black;
-    text-align: center;
-}
-
-.opacidad {
-    background-color: black;
-}
-
-.opacidad img{
-    opacity: .7;
-}
 
 .bloque-2{
     width: 100%;
@@ -337,7 +345,7 @@ button{
     border: 1px solid black;
     border-radius: 11px;
     background-color: #ffff;
-    height: 50px;
+    height: 45px;
     margin: .6rem;
     display: flex;
 }
@@ -361,10 +369,11 @@ button{
 }
 
 .caja__txt{
-    padding-left: 1.3rem;
+    padding-left: 1.2rem;
     text-align: left;
     margin: auto 0;
     font-size: .9rem;
+    /* white-space: nowrap; */
 }
 
 .contacto__mapa{
