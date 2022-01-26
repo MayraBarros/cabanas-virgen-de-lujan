@@ -42,7 +42,7 @@ button{
 
 .textos__portada{
     position: absolute;
-    bottom: 0%;
+    top:15%;
     left: 50%;
     transform: translateX(-50%);
 
