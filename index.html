@@ -7,6 +7,8 @@
     <title>Posadas Virgen de Luján</title>
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="responsive-sass.scss">
+    <link rel="stylesheet" href="desktop.css">
+
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,22 +23,53 @@
     
     <main class="portada-principal">      
    
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"></a>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"> <img src="./IMG/iconos/logo-cabañas.png" alt=""> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#valleFertil">Acerca de Valle Fértil <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#cabanas">Cabañas</a>
-                <a class="nav-item nav-link" href="#contacto">Contacto / Reservas</a>
+              <div class="navbar-nav ">
+                <a class="nav-item nav-link " href="#valleFertil">Acerca de Valle Fértil <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link " href="#cabanas">Cabañas</a>
+                <a class="nav-item nav-link " href="#contacto">Contacto / Reservas</a>
                 
+              </div>
+            </div>
+          </nav> -->
+
+          <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Posadas Virgen de Luján</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#valleFertil">Valle Fértil y Nuestras cabañas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#comoLlegar">Cómo llegar</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contacto">Contacto y Reservas</a>
+                    </li>
+
+                </div>
               </div>
             </div>
           </nav>
 
-          <div class="textos__portada">
+        <div class="textos__portada">
           <h1 class="portada__tt">VENÍ A CONOCER LA TIERRA DONDE VIVIERON LOS <span class="portada__dinosaurios">DINOSAURIOS</span></h1>
 
           <p class="portada__txt">Villa San Agustín, Valle Fértil, San Juan.
@@ -44,8 +77,11 @@
             - 30.67° O | - 67.46° S
           </p>        
 
-          </div>        
-                     
+        </div> 
+        
+        <div class="logo-portada">
+          <img src="./IMG/iconos/logo-cabañas.png" alt="" class="logo-cabana-portada">
+        </div>    
       
     </main>
 
@@ -63,7 +99,34 @@
 
       <div id="cabanas" class="bloque-2__cabanas">
         <h1 class="cabanas__tt">¿Dónde se encuentran nuestras cabañas?</h1>
-        <p class="cabanas__txt">El complejo de cabañas Posada Virgen de Luján, se encuentra en el corazón de Villa San Agustín. Rodeado de tiendas de alimentación, a tan solo 5 minutos del rio y de la plaza principal de la Villa. </p>
+        <p class="cabanas__txt">Cabañas Posada Virgen de Luján, se encuentra en el corazón de Villa San Agustín. Rodeado de tiendas de alimentación, a tan solo 5 minutos del rio y de la plaza principal de la Villa. </p>
+      </div>
+
+      <div class="galeria-container">
+        <div class="galeria__item">
+          <img class="galeria__img " src="./IMG/Cabañas/C-exterior1.png" alt="">
+        </div>
+
+        <div class="galeria__item">
+          <img class="galeria__img" src="./IMG/Cabañas/C-exterior2.png" alt="">
+        </div>
+
+        <div class="galeria__item">
+          <img class="galeria__img" src="./IMG/Cabañas/E-pileta1.png" alt="">
+        </div>
+
+        <div class="galeria__item">
+          <img class="galeria__img" src="./IMG/Cabañas/I-living.png" alt="">
+        </div>
+
+        <div class="galeria__item">
+          <img class="galeria__img" src="./IMG/Cabañas/I-habitacion1.png" alt="">
+        </div>
+        
+      </div>
+
+      <div class="texto-descripcion-cabanas">
+        <p class="descripcion__cabanas-txt">El complejo cuenta con 4 cabañas totalmente equipadas para que puedas disfrutar de Valle Fértil, sin que tengas que preocuparte por nada. Cada cabaña cuenta ropa de cama completo, toallas para cada huesped, vajilla completa y elementos de cocina para que disfrutes de tu estardía. El complejo tiene churrasquera y pileta para compartir con los demás huéspedes, ¡podés usarlo las veces que quieras!.  </p>
       </div>
 
       <div class="tarjeta__cabanas">
@@ -87,6 +150,7 @@
           </div>
 
         </div>
+
       </div>
 
       <div class="bloque-2__fotos">
@@ -136,8 +200,11 @@
 
       </div>
 
+      <h2 class="complejo__tt_desk"> Nuestro complejo cuenta con:</h2>
+
       <div class="tarjeta__items__cabanas">
 
+        <div class="tarjeta__iconos-cabanas">
           <div class="tarjeta__superior">
 
             <div class="item__t">
@@ -175,11 +242,37 @@
             </div>  
 
           </div>
+        </div>  
+
+        <div class="tarjeta-container-protocolo">
+          <div class="datos__cabanas-protocolo">
+  
+            <div class="items__cabanas">
+              <img class="icono__items" src="./IMG/iconos/limpieza.png" alt="" >
+              <p class="txt__cabanas"> <span class="tt-desk">Limpieza acorde a los protocolos COVID-19:</span> <br> <span class="protocolo__txt-desk">El establecimiento es desinfectado en su totalidad antes de ser utilizado por otros huespedes.</span></p>
+             
+              
+            </div>
+  
+            <div class="items__cabanas">
+              <img class="icono__items" src="./IMG/iconos/aireAA.png" alt="" >
+              <p class="txt__cabanas"> <span class="tt-desk">Aire Acondicionado frio / calor.</span> <br> <span class="protocolo__txt-desk">El establecimiento es desinfectado en su totalidad antes Cada cabaña cuenta con un equipo de Frio / Calor para climatizar el ambiente.</span> </p>
+            </div>
+  
+            <div class="items__cabanas">
+              <img class="icono__items" src="./IMG/iconos/entrada.png" alt="" >
+              <p class="txt__cabanas"> <span class="tt-desk">¡Te estaremos esperando para darte la bienvenida!</span> <br> <span class="protocolo__txt-desk">Tendrás una llave para el ingreso de manera autónoma al complejo.  </span> </p>
+            </div>
+  
+          </div>
+
+        </div>
+
       </div>
 
     </section>
 
-    <section class="bloque-3">
+    <section id="comoLlegar" class="bloque-3">
       <div class="bloque-3__como-llegar">
         <img class="como-llegar__icono" src="./IMG/iconos/coche.png" alt="">
         <h1 class="como-llegar__tt">CÓMO LLEGAR A VALLE FÉRTIL:</h1>
@@ -230,26 +323,28 @@
           <p class="contacto__txt">Contactate con nosotros y consultá por las fechas disponibles y reservas:</p>
         </div>
 
-        <div class="contacto__cajas">
-          <div class="contacto__caja-info">
-            <img class="icono__correo" src="./IMG/iconos/correo_c.png" alt="" >
-            <p class="caja__txt">mabarrosg@gmail.com </p>
+        <div class="contacto__container">
+          <div class="contacto__cajas">
+            <div class="contacto__caja-info">
+              <img class="icono__correo" src="./IMG/iconos/correo_c.png" alt="" >
+              <p class="caja__txt">mabarrosg@gmail.com </p>
+            </div>
+  
+            <div class="contacto__caja-info">
+              <img class="icono__telefono" src="./IMG/iconos/telefono.png" alt="" >
+              <p class="caja__txt">+54 9 2645 32-4594 </p>
+            </div>
+  
+            <div class="contacto__caja-info">
+              <img class="icono__direccion" src="./IMG/iconos/direccion.png" alt="" >
+              <p class="caja__txt">Aberastain 1065, Villa San Agustín, Valle Fértil.</p>
+            </div>
           </div>
-
-          <div class="contacto__caja-info">
-            <img class="icono__telefono" src="./IMG/iconos/telefono.png" alt="" >
-            <p class="caja__txt">+54 9 2645 32-4594 </p>
-          </div>
-
-          <div class="contacto__caja-info">
-            <img class="icono__direccion" src="./IMG/iconos/direccion.png" alt="" >
-            <p class="caja__txt">Aberastain 1065, Villa San Agustín, Valle Fértil.</p>
-          </div>
+  
+          <div class="contacto__mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11546.321647387358!2d-67.4654554912552!3d-30.64122892726853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbdf49fb327ee0327!2sPosada%20Virgen%20De%20Luj%C3%A1n!5e0!3m2!1ses!2ses!4v1642848183491!5m2!1ses!2ses" width="320" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-
-        <div class="contacto__mapa">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11546.321647387358!2d-67.4654554912552!3d-30.64122892726853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbdf49fb327ee0327!2sPosada%20Virgen%20De%20Luj%C3%A1n!5e0!3m2!1ses!2ses!4v1642848183491!5m2!1ses!2ses" width="320" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
+        </div>
 
      </section>
 
