@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'jost', sans-serif;
-    scroll-margin: 1rem;
+    scroll-margin: 4rem;
 }
 html{
     margin-bottom: 0;
@@ -17,9 +17,7 @@ nav{
     
 }
 
-button{
-    /* background-color: white !important; */
-}
+
 
 .navbar-nav{
     background-color: white !important;
@@ -36,6 +34,7 @@ button{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
    
 }
 
@@ -141,6 +140,10 @@ button{
     text-align: left;
 }
 
+.desktop-bloque-2__galeria{
+    display: none;
+}
+
 .bloque-2__fotos{
     width: 100%;
     object-fit: contain;
@@ -217,8 +220,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    
+    align-content: center;    
 }
 
 .box-container{
@@ -392,15 +394,36 @@ footer{
     margin-bottom: 0;
 }
 
-.footer{
-    
+.footer{    
     color: #ffff;
     font-size: .8rem;
-    
 }
 
 .copy{
     color: #ffff;
     font-size: .8rem;
     padding-top: .5rem;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .logo-portada img{
+        display: none;
+    }
+
+    .galeria-container{
+        display: none;
+    }
+
+    .texto-descripcion-cabanas{
+        display: none;
+    }
+
+ .protocolo__txt-desk{
+     display: none;
+ }
+
+ .tarjeta-container-protocolo{
+     display: none;
+ }
 }
