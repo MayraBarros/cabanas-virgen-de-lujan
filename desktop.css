@@ -1,4 +1,9 @@
 @media only screen and (min-width: 426px) {
+    *{
+        scroll-behavior: 4rem;
+    }
+
+
     .portada-principal{
         background-image: url(./IMG/Paisajes/desktop-portada.jpg);
         background-size: cover;
