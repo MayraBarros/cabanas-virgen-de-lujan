@@ -198,7 +198,22 @@
 
     .box-tarjetas-rutas:hover{
         cursor:pointer;
+        
     }
+
+    .item__t .scale{
+        transform: scale(1);
+        transition:all .2s ease-in-out;
+    }
+    .item__t:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        /* transition:all .2s ease-in-out; */
+    }
+    /* .box-tarjetas-rutas:hover .box-container{
+        transform: scale(1.05);
+        transition: all .2s ease-in-out;
+    } */
 
     .box-back{
         width: 100%;
