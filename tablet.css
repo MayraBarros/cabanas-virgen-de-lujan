@@ -1,0 +1,124 @@
+@media only screen and (min-width: 426px) and (max-width: 1020px) {
+
+    .texto__portada{
+        top:40%;
+    }
+
+    .portada__tt{
+        font-size: 1.2rem;
+        width: 65%;
+    }
+
+    .portada__dinosaurios{
+        font-size: 3rem;
+        
+    }
+
+    .portada__txt{
+        font-size: .7rem;
+    }
+
+    .logo-portada{
+        bottom: -60%;
+    }
+
+    .valle-fertil__txt{
+        font-size: 1rem;
+    }
+
+    .cabanas__txt{
+        font-size: 1rem;
+    }
+
+    .tarjeta__items__cabanas{
+        padding-left: 0;
+        margin: auto
+    }
+
+    .datos__cabanas-protocolo{
+        padding-left: 0;
+    }
+
+    .complejo__tt_desk{
+        font-size: 1.2rem ;
+    }
+
+    .protocolo__txt-desk{
+        font-size: .7rem;
+    }
+
+    .tt-desk{
+        font-size: .8rem;
+    }
+
+    .icono__items{
+        width: 20%;
+        padding-left: 1rem;
+    }
+
+    .tarjeta__iconos-cabanas{
+        padding-right: 0;
+        width: 70%;
+    }
+
+    .item__t{
+        width: 25%;
+        padding: 0;
+        align-self: flex-start;
+        
+    }
+
+    .icono__txt{
+        font-size: .5rem;
+    }
+
+    .tarjeta__items__cabanas{
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+    .tarjeta__superior{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .tarjeta__inferior{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .tarjeta-container-protocolo{
+        width: 100%;
+    }
+
+    .bloque-3{
+        padding-bottom: 2rem;
+    }
+
+    .como-llegar__tt{
+        font-size: 1.5rem;
+    }
+
+    .box-tarjetas-rutas{
+        width: 80%;
+    }
+
+    .box-back{
+        font-size: 1rem;
+    }
+
+    .box-frente__tt{
+        font-size: 1.5rem;
+    }
+
+    .bloque-4{
+        margin-top: 0;
+    }
+
+    .contacto__caja-info{
+        width: 88%;
+    }
+    
+    .caja__txt{
+        font-size: .85rem;
+    }
