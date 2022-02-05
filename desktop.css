@@ -129,11 +129,6 @@
         
     }
 
-    .tarjeta__items__cabanas{
-        flex-direction: row-reverse;
-
-    }
-
     .complejo__tt_desk{
         padding-left: 2rem;
         font-size: 1.8rem;
@@ -157,10 +152,12 @@
     .tarjeta__items__cabanas{
         width: 90%;
         padding-left: 3rem;
+        flex-direction: row-reverse;
     }
 
     .bloque-3{
         background-image: url(./IMG/Paisajes/Chilecito-Ruta-40-scaled.jpg);
+        background-position: 60%;
     }
 
     .como-llegar__icono{
@@ -183,7 +180,7 @@
         flex-direction: row ;
         justify-content: space-between;
         align-items: center;
-        width: 60%;
+        width: 65%;
         margin: auto;
     }
 
@@ -299,7 +296,7 @@
 
     .contacto__caja-info{
          width: 70%;
-         margin: 
+
          
     }
     .contacto__mapa{
@@ -319,6 +316,5 @@
     .contacto__txt{
         font-size: 1.2rem;
     }
-
-
 }   
+
