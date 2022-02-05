@@ -1,124 +1,146 @@
-@media only screen and (min-width: 426px) and (max-width: 1020px) {
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
 
-    .texto__portada{
-        top:40%;
+    .portada-principal{
+        background-image: url(./IMG/Paisajes/desktop-portada.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        height: 100vh;
+    }
+
+    .navbar-nav{
+        display: fixed;
+        background: rgba(248, 246, 246, 0.329) !important;
+        backdrop-filter: blur(5px) !important;
+        padding: 0.5rem !important;
+        color: #00000 !important;
+        width: 100% ;
+        font-weight: 500 !important;
+    }
+
+    .textos__portada{
+        top: 45%;
     }
 
     .portada__tt{
-        font-size: 1.2rem;
-        width: 65%;
+        font-size: 1rem;
+        width: 60%;
     }
 
     .portada__dinosaurios{
-        font-size: 3rem;
-        
+        font-size: 4rem;
     }
 
     .portada__txt{
-        font-size: .7rem;
+        font-size: 1rem;
     }
 
     .logo-portada{
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
         bottom: -60%;
+    
     }
 
-    .valle-fertil__txt{
-        font-size: 1rem;
+    .logo-cabana-portada{
+        display: inline-block;
+        width: 25%; 
     }
 
-    .cabanas__txt{
-        font-size: 1rem;
+    .titulo__foto{
+        font-size: 1.5rem;
     }
 
-    .tarjeta__items__cabanas{
-        padding-left: 0;
-        margin: auto
+    .galeria-container{
+        display: none;
     }
 
-    .datos__cabanas-protocolo{
-        padding-left: 0;
+    .tarjeta__cabanas{
+        display: none;
     }
 
     .complejo__tt_desk{
-        font-size: 1.2rem ;
-    }
-
-    .protocolo__txt-desk{
-        font-size: .7rem;
-    }
-
-    .tt-desk{
-        font-size: .8rem;
-    }
-
-    .icono__items{
-        width: 20%;
         padding-left: 1rem;
     }
 
     .tarjeta__iconos-cabanas{
-        padding-right: 0;
-        width: 70%;
+        margin-bottom: 5rem;
     }
 
-    .item__t{
-        width: 25%;
-        padding: 0;
-        align-self: flex-start;
+    .icono__items{
+        width: 15%;
+    }
+
+    .datos__cabanas-protocolo{
+        padding-left: 2rem;
+    }
+
+    .tt-desk{
+        font-weight: 700;
+    }
+
+    .box-container .box-frente-sanjuan{
+        width: 100%;
+        height: 100%;
+        background-image: url(./IMG/Paisajes/san\ juan.jpg);
+        /* background-position: 100%; */
+        background-size: cover;
+        object-fit: contain;
+        background-repeat: no-repeat;
+        opacity: 1;
+        border-radius: 8px;
+        border: 1.3px solid #fff;    
+        position: absolute;
+        object-fit: cover;
+        background-position: 50%;
+    }
+
+    
+    .box-container .box-frente-mdz{
+        width: 100%;
+        height: 100%;
+        background-image: url(./IMG/Paisajes/mendoza.jpg);
+        background-position: -20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+        border-radius: 8px;
+        border: 1.3px solid #fff;    
+        position: absolute
+    
+    }
+
+    .box-container .box-frente-rp{
+        width: 100%;
+        height: 100%;
+        background-image: url(./IMG/Paisajes/resto_pais.jpg);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 1;
+        border-radius: 8px;
+        border: 1.3px solid #fff;    
+        position: absolute
+    
+    }
+
+    .contacto__mapa{
+        width: 70%;
+        outline: 4px solid #0000;
+    }
+
+        
+    .contacto__mapa iframe{
+        width: 100%;
         
     }
 
-    .icono__txt{
-        font-size: .5rem;
-    }
 
-    .tarjeta__items__cabanas{
-        display: flex;
-        flex-direction: row-reverse;
 
-    }
 
-    .tarjeta__superior{
-        justify-content: center;
-        gap: 1rem;
-    }
-    .tarjeta__inferior{
-        justify-content: center;
-        gap: 1rem;
-    }
 
-    .tarjeta-container-protocolo{
-        width: 100%;
-    }
 
-    .bloque-3{
-        padding-bottom: 2rem;
-    }
-
-    .como-llegar__tt{
-        font-size: 1.5rem;
-    }
-
-    .box-tarjetas-rutas{
-        width: 80%;
-    }
-
-    .box-back{
-        font-size: 1rem;
-    }
-
-    .box-frente__tt{
-        font-size: 1.5rem;
-    }
-
-    .bloque-4{
-        margin-top: 0;
-    }
-
-    .contacto__caja-info{
-        width: 88%;
-    }
-    
-    .caja__txt{
-        font-size: .85rem;
-    }
+}
